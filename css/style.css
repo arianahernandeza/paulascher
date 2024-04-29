@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    font-family: "Archivo", sans-serif;
+    background-color: white;    
+    width: 100%;    
+}
+   
+header {padding: 5%;}
+
+footer {height: 150px;}
+
+h1, h3 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 6.25em;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 1.875em;
+}
+
+p {
+    margin-bottom: 3%;
+    line-height: 1.5em;
+}
+
+section {padding:5%;}
+
+.byn {
+    background-color: black;
+    color: white;
+}
+
+#secondSection p {width: 30%;}
+
+.pad {padding-bottom: 4%;}
+
+div {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+div img {
+    width: 30%;
+    border: 1.5px solid black;
+    align-items: center;
+}
+
+#thirdSection img {
+    width: 66.67%;
+    margin:auto;
+    display: block;
+    border: 1.5px solid black;
+}
+
+#fourthSection {background-color:lavender;}
+
+.wdt {width: 40%;}
+
+.pb {padding-bottom: 2%;}
+
+a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    border:1.5px solid;
+    padding: 0.5em 1em;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+@media(max-width: 768px){
+    body {font-size: 10px;}
+    h1 {font-size: 40px;}
+    h3 {font-size: 20px;}
+}
